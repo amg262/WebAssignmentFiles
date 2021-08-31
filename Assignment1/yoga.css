@@ -1,11 +1,13 @@
 body {
     background-color: #f5f5f5;
     color: #40407a;
+    font-family: Verdana, sans-serif;
 }
 
 header {
     color: #40407a;
     background-color: #80cbc4;
+    background-image: url("./");
 }
 
 dt {

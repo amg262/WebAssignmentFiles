@@ -3,8 +3,9 @@
 }
 
 header {
-    background-image: url("./pacific/sunset.jpg");
-    background-repeat: repeat;
+    background-image: url('sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
     line-height: 400%;
     text-indent: 1em;
 }
@@ -18,6 +19,9 @@ h1 {
     background-color: #002171;
     margin: 0;
     font-family: Georgia, sans-serif;
+    background-image: url('sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 nav {
@@ -41,4 +45,18 @@ ul {
 }
 dt {
     color: #1976d2;
+}
+footer {
+    font-size: 75%;
+    font-style:italic;
+    text-align: center;
+    font-family: Georgia,sans-serif;
+}
+
+.resort {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
 }
