@@ -1,0 +1,44 @@
+* {
+    background-color: white;
+}
+
+header {
+    background-image: url("./pacific/sunset.jpg");
+    background-repeat: repeat;
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: #002171;
+    margin: 0;
+    font-family: Georgia, sans-serif;
+}
+
+nav {
+    background-color: #BBDEFB;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, sans-serif;
+}
+h3 {
+    font-family: Georgia, sans-serif;
+    color:#000033;
+}
+ul {
+    list-style-image: url("./pacific/marker.gif");
+}
+dt {
+    color: #1976d2;
+}
