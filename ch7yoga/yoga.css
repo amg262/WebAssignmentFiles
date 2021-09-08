@@ -135,6 +135,7 @@ nav:hover {
     background-size: 100% 300px;
     background-image: url("./yoga/yogalounge.jpg");
     background-repeat: no-repeat;
+    float: none;
 }
 
 h2 {
