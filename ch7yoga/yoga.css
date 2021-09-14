@@ -93,15 +93,15 @@ nav li {
 }
 
 nav a:link {
-    color: #cf2860;
+    color: #3f2860;
 
 }
 
-nav:visited {
+nav a:visited {
     color: #497777;
 }
 
-nav:hover {
+nav a:hover {
     color: #a26100;
 }
 
@@ -126,6 +126,8 @@ nav:hover {
     background-image: url("./yoga/yogamat.jpg");
     background-repeat: no-repeat;
     float: none;
+    clear: both;
+
 }
 
 #loungehero {
@@ -136,6 +138,7 @@ nav:hover {
     background-image: url("./yoga/yogalounge.jpg");
     background-repeat: no-repeat;
     float: none;
+    clear: both;
 }
 
 h2 {
