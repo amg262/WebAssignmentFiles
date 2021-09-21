@@ -4,3 +4,4 @@ Repo for all Lab, Assignment files used in Intro. to Web Development class. Paci
 
 ## Included: Pacific Trails chpt 10, 11 ##
 ## Assignments: Yoga Studio Assignments 1 - 6 ##
+

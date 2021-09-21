@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Pacific Trails Resort</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="yurts.html">Yurts</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Reservations at Pacific Trails.</h2>
+        <h3>Contact Us Today!</h3>
+        <p>Required field are marked with an asterisk *.</p>
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+            <label>*First Name:<input type="text" id="myFName" name="myFName"></label>
+            <label>*Last Name:<input type="text" id="myLName" name="myLName"></label>
+            <label>*E-mail:<input type="email" name="myEmail" id="myEmail"></label>
+            <label>Phone:<input type="tel" id="myTelephone" name="myTelephone" maxlength="12"></label>
+            <label>Arrival Date<input type="date" id="myArrival" name="myArrival"></label>
+            <label>Days<input type="number" id="myNights" min=1 max=14 name="myNights"></label>
+            <label>*Comments<textarea cols=30 rows=2 id="myComments" name="myComments"></textarea></label>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="contact">
+            <span class="resort">Pacific Trails Resort</span><br>
+            12010 Pacific Trails Road<br>
+            Zephyr, CA 95555<br><br>
+            888-555-5555<br>
+        </div>
+    </main>
+    <footer>
+        <small><i>Copyright &#169 2020 Pacific Trails Resort<br>
+            <a href="mailto: bnelson54@my.wctc.edu">bnelson54@my.wctc.edu</a></i></small>
+    </footer>
+</div>
+</body>
+</html>
